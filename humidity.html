@@ -1,0 +1,43 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Bokeh Plot</title>
+        
+<link rel="stylesheet" href="https://cdn.pydata.org/bokeh/release/bokeh-0.12.3.min.css" type="text/css" />
+        
+<script type="text/javascript" src="https://cdn.pydata.org/bokeh/release/bokeh-0.12.3.min.js"></script>
+<script type="text/javascript">
+    Bokeh.set_log_level("info");
+</script>
+        <style>
+          html {
+            width: 100%;
+            height: 100%;
+          }
+          body {
+            width: 90%;
+            height: 100%;
+            margin: auto;
+          }
+        </style>
+    </head>
+    <body>
+        
+        <div class="bk-root">
+            <div class="plotdiv" id="39626ae5-34cc-44a8-ab4c-570bec1527f4"></div>
+        </div>
+        
+        <script type="text/javascript">
+            Bokeh.$(function() {
+            Bokeh.safely(function() {
+                var docs_json = {"97d074da-10ed-4b9d-b00a-788cf1350acb":{"roots":{"references":[{"attributes":{},"id":"8d8a0e6c-c1d1-4e49-a849-c7a76476d804","type":"BasicTicker"},{"attributes":{},"id":"4afd5337-6220-46cf-afe3-dbc3beebd90f","type":"ToolEvents"},{"attributes":{"callback":null,"factors":["Kiev","Washington"]},"id":"9d73fb7f-fcbf-4934-8dd1-44caa35e022e","type":"FactorRange"},{"attributes":{"callback":null,"column_names":["x","y","width","height","color","fill_alpha","line_color","line_alpha","label"],"data":{"chart_index":[{"cities":"Washington"}],"cities":["Washington"],"color":["green"],"fill_alpha":[0.8],"height":[0.93],"label":[{"cities":"Washington"}],"line_alpha":[1.0],"line_color":["white"],"width":[0.8],"x":["Washington"],"y":[0.465]}},"id":"09f5927b-13b9-4814-8667-f9d85190b7ae","type":"ColumnDataSource"},{"attributes":{},"id":"13b9f4b7-1f28-4227-bfb0-eea4905190c9","type":"BasicTickFormatter"},{"attributes":{"plot":null,"text":"Daily Humidity in Kiev vs Washington"},"id":"dfa745cd-5ee6-4c76-afce-4358d3de90ff","type":"Title"},{"attributes":{"plot":{"id":"7df6ae96-c82d-4811-846b-b0da530a56e7","subtype":"Chart","type":"Plot"}},"id":"28b88326-ae90-4122-bfc8-befba82be124","type":"PanTool"},{"attributes":{"bottom_units":"screen","fill_alpha":{"value":0.5},"fill_color":{"value":"lightgrey"},"left_units":"screen","level":"overlay","line_alpha":{"value":1.0},"line_color":{"value":"black"},"line_dash":[4,4],"line_width":{"value":2},"plot":null,"render_mode":"css","right_units":"screen","top_units":"screen"},"id":"1c99facc-c147-4f48-8edb-6eee45c731db","type":"BoxAnnotation"},{"attributes":{},"id":"716a1db9-ba11-4911-b261-75a8c67ebd3f","type":"CategoricalTicker"},{"attributes":{"active_drag":"auto","active_scroll":"auto","active_tap":"auto","tools":[{"id":"28b88326-ae90-4122-bfc8-befba82be124","type":"PanTool"},{"id":"a07cdf52-825f-4d1a-b9f9-9a13f9363baa","type":"WheelZoomTool"},{"id":"0f13f775-dcb7-4070-8241-c9bca849cf10","type":"BoxZoomTool"},{"id":"110c09a6-ff31-452a-abf3-9e9602af412d","type":"SaveTool"},{"id":"c78f138e-d47e-4acf-993c-d922f3374607","type":"ResetTool"},{"id":"e6a8dc61-0eb7-4b68-b6c9-bc1d69c2ff35","type":"HelpTool"}]},"id":"122c3c22-d193-4a7b-8822-e22c267e8157","type":"Toolbar"},{"attributes":{"axis_label":"Cities","formatter":{"id":"5a585c0a-bf71-41da-8b2b-ebe284fa768d","type":"CategoricalTickFormatter"},"major_label_orientation":0.7853981633974483,"plot":{"id":"7df6ae96-c82d-4811-846b-b0da530a56e7","subtype":"Chart","type":"Plot"},"ticker":{"id":"716a1db9-ba11-4911-b261-75a8c67ebd3f","type":"CategoricalTicker"}},"id":"710ac2f9-2e21-4a08-8170-22ccca853ed5","type":"CategoricalAxis"},{"attributes":{"fill_alpha":{"field":"fill_alpha"},"fill_color":{"field":"color"},"height":{"field":"height","units":"data"},"line_color":{"field":"line_color"},"width":{"field":"width","units":"data"},"x":{"field":"x"},"y":{"field":"y"}},"id":"5f470a03-16be-4214-a8a5-442d35f73407","type":"Rect"},{"attributes":{"data_source":{"id":"a4997dcf-dfa8-4148-8c90-6568fb6be0a8","type":"ColumnDataSource"},"glyph":{"id":"5f470a03-16be-4214-a8a5-442d35f73407","type":"Rect"},"hover_glyph":null,"nonselection_glyph":null,"selection_glyph":null},"id":"aa37f54f-d9b2-4de1-bffa-cb87da794b87","type":"GlyphRenderer"},{"attributes":{"plot":{"id":"7df6ae96-c82d-4811-846b-b0da530a56e7","subtype":"Chart","type":"Plot"}},"id":"a07cdf52-825f-4d1a-b9f9-9a13f9363baa","type":"WheelZoomTool"},{"attributes":{},"id":"5a585c0a-bf71-41da-8b2b-ebe284fa768d","type":"CategoricalTickFormatter"},{"attributes":{"overlay":{"id":"1c99facc-c147-4f48-8edb-6eee45c731db","type":"BoxAnnotation"},"plot":{"id":"7df6ae96-c82d-4811-846b-b0da530a56e7","subtype":"Chart","type":"Plot"}},"id":"0f13f775-dcb7-4070-8241-c9bca849cf10","type":"BoxZoomTool"},{"attributes":{"plot":{"id":"7df6ae96-c82d-4811-846b-b0da530a56e7","subtype":"Chart","type":"Plot"}},"id":"c78f138e-d47e-4acf-993c-d922f3374607","type":"ResetTool"},{"attributes":{"callback":null,"column_names":["x","y","width","height","color","fill_alpha","line_color","line_alpha","label"],"data":{"chart_index":[{"cities":"Kiev"}],"cities":["Kiev"],"color":["green"],"fill_alpha":[0.8],"height":[0.92],"label":[{"cities":"Kiev"}],"line_alpha":[1.0],"line_color":["white"],"width":[0.8],"x":["Kiev"],"y":[0.46]}},"id":"a4997dcf-dfa8-4148-8c90-6568fb6be0a8","type":"ColumnDataSource"},{"attributes":{"plot":{"id":"7df6ae96-c82d-4811-846b-b0da530a56e7","subtype":"Chart","type":"Plot"}},"id":"110c09a6-ff31-452a-abf3-9e9602af412d","type":"SaveTool"},{"attributes":{"callback":null,"end":0.9765},"id":"64720cbd-0040-4687-b09b-75fe191e31d4","type":"Range1d"},{"attributes":{"dimension":1,"plot":{"id":"7df6ae96-c82d-4811-846b-b0da530a56e7","subtype":"Chart","type":"Plot"},"ticker":{"id":"8d8a0e6c-c1d1-4e49-a849-c7a76476d804","type":"BasicTicker"}},"id":"05e4cc0d-df7c-4c22-9d82-e290fbb51620","type":"Grid"},{"attributes":{"data_source":{"id":"09f5927b-13b9-4814-8667-f9d85190b7ae","type":"ColumnDataSource"},"glyph":{"id":"fca65400-89b5-4221-84d5-f509b28fc5d2","type":"Rect"},"hover_glyph":null,"nonselection_glyph":null,"selection_glyph":null},"id":"1cd41056-9b52-4e88-89d0-e2cd1efa4c97","type":"GlyphRenderer"},{"attributes":{"plot":{"id":"7df6ae96-c82d-4811-846b-b0da530a56e7","subtype":"Chart","type":"Plot"}},"id":"e6a8dc61-0eb7-4b68-b6c9-bc1d69c2ff35","type":"HelpTool"},{"attributes":{"axis_label":"Sum( Humidity )","formatter":{"id":"13b9f4b7-1f28-4227-bfb0-eea4905190c9","type":"BasicTickFormatter"},"plot":{"id":"7df6ae96-c82d-4811-846b-b0da530a56e7","subtype":"Chart","type":"Plot"},"ticker":{"id":"8d8a0e6c-c1d1-4e49-a849-c7a76476d804","type":"BasicTicker"}},"id":"82e71ffb-bdf8-421e-99ba-d78ad6c731b7","type":"LinearAxis"},{"attributes":{"fill_alpha":{"field":"fill_alpha"},"fill_color":{"field":"color"},"height":{"field":"height","units":"data"},"line_color":{"field":"line_color"},"width":{"field":"width","units":"data"},"x":{"field":"x"},"y":{"field":"y"}},"id":"fca65400-89b5-4221-84d5-f509b28fc5d2","type":"Rect"},{"attributes":{"below":[{"id":"710ac2f9-2e21-4a08-8170-22ccca853ed5","type":"CategoricalAxis"}],"height":500,"left":[{"id":"82e71ffb-bdf8-421e-99ba-d78ad6c731b7","type":"LinearAxis"}],"renderers":[{"id":"1c99facc-c147-4f48-8edb-6eee45c731db","type":"BoxAnnotation"},{"id":"aa37f54f-d9b2-4de1-bffa-cb87da794b87","type":"GlyphRenderer"},{"id":"1cd41056-9b52-4e88-89d0-e2cd1efa4c97","type":"GlyphRenderer"},{"id":"710ac2f9-2e21-4a08-8170-22ccca853ed5","type":"CategoricalAxis"},{"id":"82e71ffb-bdf8-421e-99ba-d78ad6c731b7","type":"LinearAxis"},{"id":"05e4cc0d-df7c-4c22-9d82-e290fbb51620","type":"Grid"}],"title":{"id":"dfa745cd-5ee6-4c76-afce-4358d3de90ff","type":"Title"},"tool_events":{"id":"4afd5337-6220-46cf-afe3-dbc3beebd90f","type":"ToolEvents"},"toolbar":{"id":"122c3c22-d193-4a7b-8822-e22c267e8157","type":"Toolbar"},"width":500,"x_mapper_type":"auto","x_range":{"id":"9d73fb7f-fcbf-4934-8dd1-44caa35e022e","type":"FactorRange"},"y_mapper_type":"auto","y_range":{"id":"64720cbd-0040-4687-b09b-75fe191e31d4","type":"Range1d"}},"id":"7df6ae96-c82d-4811-846b-b0da530a56e7","subtype":"Chart","type":"Plot"}],"root_ids":["7df6ae96-c82d-4811-846b-b0da530a56e7"]},"title":"Bokeh Application","version":"0.12.3"}};
+                var render_items = [{"docid":"97d074da-10ed-4b9d-b00a-788cf1350acb","elementid":"39626ae5-34cc-44a8-ab4c-570bec1527f4","modelid":"7df6ae96-c82d-4811-846b-b0da530a56e7"}];
+                
+                Bokeh.embed.embed_items(docs_json, render_items);
+            });
+        });
+        </script>
+    </body>
+</html>
