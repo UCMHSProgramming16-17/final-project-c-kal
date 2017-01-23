@@ -30,7 +30,7 @@ def kiev():
     #deal with information recieved 
     weather =r.json()
 
-    #whats the current weather
+    #whats the current temp and daily humidity 
     temp1 = weather['currently']['temperature']
     humid1 = weather['daily']['data'][0]['humidity']
     
@@ -67,9 +67,11 @@ def wash():
 
     return Wash
 
+#run the function and assignned the return list into a variable
 Kiev = kiev()
 Wash = wash()
-
+ 
+#seperated information into individual lists
 city = [Kiev[0],Wash[0]]
 temp = [Kiev[1],Wash[1]]
 humidity= [Kiev[2],Wash[2]]
